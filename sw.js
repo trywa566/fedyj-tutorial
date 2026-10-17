@@ -1,4 +1,4 @@
-const CACHE_NAME = 'fedyj-tutorial-v1';
+const CACHE_NAME = 'fedyj-tutorial-v2';
 const APP_SHELL = [
   './',
   './index.html',
@@ -6,6 +6,10 @@ const APP_SHELL = [
   './physics.html',
   './chemistry.html',
   './past-papers.html',
+  './styles.css',
+  './app.js',
+  './search.js',
+  './search-index.json',
   './maths-triangles.html',
   './maths-circles.html',
   './maths-algebra.html',
@@ -14,9 +18,7 @@ const APP_SHELL = [
   './physics-waves.html',
   './chemistry-periodic-table.html',
   './chemistry-bonding.html',
-  './chemistry-acids-bases.html',
-  './styles.css',
-  './app.js'
+  './chemistry-acids-bases.html'
 ];
 
 self.addEventListener('install', (event) => {
